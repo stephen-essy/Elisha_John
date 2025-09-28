@@ -1,0 +1,22 @@
+@mixin centerElement{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin boxStyle{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@mixin screenDimensions{
+    height: 100vh;
+    width: 100%;
+    background-color: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@mixin headerElementLeft{
+    display: flex;
+    justify-items: center;
+    align-items: end;
+}
